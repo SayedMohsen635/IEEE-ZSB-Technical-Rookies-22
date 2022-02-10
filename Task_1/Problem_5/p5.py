@@ -19,7 +19,7 @@ def sumRecursion(list):     #Sum Method Using Recursion
         return list[0] + sumRecursion(list[1:])
 
 n = input()                 #Takes Input From User
-lst =list(map(int , input().strip().split()))
+lst = list(map(int , input().strip().split()))
 
 print(sumLoop(lst))         #Printing Results
 print(sumWhile(lst))
